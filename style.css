@@ -1,3 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600,700,800&display=swap');
+
 body{
-	background-color: brown;
+	font-family: 'Open Sans', sans-serif;
+	padding: 0;
+	margin: 0;
 }
+
+h1{
+	font-weight: 800;
+	font-size: 50px;
+}
+
+h2{
+	font-weight: 800;
+	font-size: 50px;
+}
+h3{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+p{
+	font-weight: bold;
+	font-size: 30px;
+	margin: 30px 0;
+	
+}
+
+.wrapper{
+	width: 960px;
+	margin:0 auto;
+	float:left;
+
+}
+
+.hero-banner{
+	background-color: #0099cc;
+	min-height: 100vh;
+	padding: 50px 20px;
+	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
+}
+	.hero-banner h3,
+	.hero-banner h3 a{
+	color: white;
+	margin: 0 0 35px;	
+
+	}
+
+	.hero-banner h1,
+	.hero-banner h1 a{
+	color: white;
+	margin: 14px 0 20px;
+	}	
+
+.character1{
+	background: url(img/character1.png) no-repeat 0 0;
+	background-size: 50%;
+	/*float: right;*/
+	width: 573px;
+	height: 750px;
+	position: absolute; top: 10% right: 10px;
+	transform: rotate(15deg);
+	display: inline;
+
+}
+
+.character2{
+	background: url(img/character2.png) no-repeat 0 0;
+	background-size: 30%;
+	/*float: right;*/
+	width: 815px;
+	height: 616px;
+	position: absolute; top: 10% right: 0px;
+	display: inline;
+}
+
+.character3{
+	background: url(img/character3.png) no-repeat 0 0;
+	background-size: 20%;
+	/*float: right;*/
+	width: 1312px;
+	height: 1474px;
+	position: absolute; top: 10% right: 10px;
+	display: inline;
+}
+
+.character4{
+	background: url(img/character4.jpg) no-repeat 0 0;
+	background-size: 45%;
+	/*float: right;*/
+	width: 788px;
+	height: 832px;
+	position: absolute; top: 213% right: 20px;
+	display: inline;
+}
+
+.character6{
+	background: url(img/character6.png) no-repeat 0 0;
+	background-size: 50%;
+	/*float: right;*/
+	width: 460px;
+	height: 460px;
+	position: absolute; top: 10% right: 10px;
+	display: inline;
+
+}
+
+a.cta,
+button.cta{
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	background: #0099cc;
+	display: inline-block;
+	box-shadow: 0 0 0 10px solid rgba(0,127,255,.15);
+	padding: 20px 30px;
+	border-radius: 10px;
+}
+
+a.cta.alt,
+button.cta.alt{
+	background-color: #ffff00;
+	color: #000000;
+	box-shadow: 0 0 0 10px rgba(0,0,0,.15);
+}
+
+nav{
+	height: 100px;
+	background-color: white;
+	box-shadow: 0 5px 8px rgba(0,0,0,.2);
+	position: sticky;
+	top: 0;
+	overflow: hidden;
+}
+
+.logo{
+	display: block;
+	width: 100px;
+	height: 72px;
+	position: absolute; top: 60%; left: 0;
+	margin-top: -40px;
+	margin-left: 30px;
+	background-image: url('img/logo.png');
+	background-repeat: no-repeat;;
+	background-size: 100%;
+	overflow: hidden;
+	text-indent: -999px;
+}
+
+nav ul{
+	padding: 0;
+	margin: 0 20px 0 0;
+}
+
+nav ul li{
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: right;
+}
+
+nav ul li a{
+	display: block;
+	height: 100%;
+	box-sizing: border-box;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #111111;
+	text-decoration: none;
+	padding: 20px 10px;
+	line-height: 30px;
+
+}
+
+.more-info{
+	text-align: center;
+	background-color: yellow;
+}
+
+
+/*
+<div class="more-info" id="more-info">
+		<h2>Join Our Fan Club</h2>
+		<p>Every week we have a <span class="highlight">pet's party</span>. You are welcome to join our fan club. Members would also receive pictures of us in our different party outfits. Cool yeah?</p>
+		<button class="cta">Sign Me up</button>
+	</div>
+		*/
+
+/*.character1{
+	background-image: url('img/character1.png');
+	height: 450px;
+	background-repeat: no-repeat;
+}*/
+
+/*
+.highlight{
+	background-color: pink;
+	color: red;
+}*/
