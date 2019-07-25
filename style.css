@@ -171,16 +171,30 @@ nav ul li a{
 	font-weight: bold;
 	color: #111111;
 	text-decoration: none;
-	padding: 20px 10px;
+	padding: 35px 10px;
 	line-height: 30px;
 
 }
 
 .more-info{
 	text-align: center;
-	background-color: yellow;
 }
 
+.more-info p{
+	margin: 18px 0 35px;
+}
+
+.more-info h2{
+	margin: 50px 0 0;
+}
+.highlight{
+	background-color: #ff1ac6;
+	color: #ff1a1a;
+	padding: 5px 5px;
+	line-height: 50px;
+	display: inline-line;
+	font-weight: 800px;
+}
 
 /*
 <div class="more-info" id="more-info">
